@@ -16,7 +16,7 @@ public class RewardCentralService {
 
     public Integer getAttractionRewardPoints(UUID userUuid, UUID attractionUuid) {
 
-        logger.debug("rewardCentral call for " + userUuid + " for attraction "+ attractionUuid);
+        logger.debug("Reward points received!");
 
         return rewardCentral.getAttractionRewardPoints(attractionUuid, userUuid);
     }
