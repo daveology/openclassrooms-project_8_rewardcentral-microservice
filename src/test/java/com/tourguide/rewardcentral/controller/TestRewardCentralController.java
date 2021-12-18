@@ -1,10 +1,10 @@
-package com.tourguide.rewardcentral;
+package com.tourguide.rewardcentral.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RewardCentralApplicationTests {
+class TestRewardCentralController {
 
     @Test
     void contextLoads() {
